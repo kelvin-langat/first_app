@@ -5,7 +5,7 @@ from schemas.user import (FullUserProfile,
 )
 
 
-from services.user import UserService
+from services.user import UserService   
 
 def create_user_router() -> APIRouter:
     user_router = APIRouter(
